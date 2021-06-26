@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.imb {
+  position: absolute;
+  top: -120px;
+}
+@media only screen and (max-width: 770px) {
+  .imb {
+    display: none !important;
+  }
+}
+.main-tag-line {
+  top: 20px;
+}
+
+.bg-gradient-default-1{
+  background:linear-gradient(150deg, #172b4d 15%, #424d62 70%, #5e6e8b 99%) !important
+}
