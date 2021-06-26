@@ -53,3 +53,27 @@
 .bg-gradient-default-1{
   background:linear-gradient(150deg, #172b4d 15%, #424d62 70%, #5e6e8b 99%) !important
 }
+.hidden {
+  display: none;
+}
+div#mentainance,
+div#application_c,
+div#web_application_c {
+  margin: 1rem;
+  margin-top: auto;
+}
+.note {
+  display: block !important;
+  color: #bbbbbb !important;
+}
+a.disabled-w-icon.nav-link:after {
+  content: '\1f512';
+  font-family: FontAwesome;
+ font-weight: normal;
+ font-style: normal; 
+ text-decoration:none;
+ color: yellow !important
+}
+a.disabled-w-icon.nav-link {
+  color: #aaa !important;
+}

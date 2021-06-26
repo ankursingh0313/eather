@@ -43,6 +43,7 @@ app.post("/api/login", async (req, res) => {
     if (email == "ankursingh0313@gmail.com" && password == "Abcd@1234") {
         return res.json({
             status: 1,
+            session_id: email,
             msg: "Login Successfull"
         })
     } else return res.json({
